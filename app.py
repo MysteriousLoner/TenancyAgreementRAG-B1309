@@ -4,10 +4,10 @@ from sentence_transformers import SentenceTransformer
 from google import genai
 import os
 import asyncio
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
 # Your API keys (make sure to secure them in production!)
-load_dotenv()
+# load_dotenv()
 PINECONE_API_KEY = os.getenv('PINECONE_API_KEY')
 GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
 STREAMLIT_INDEX_NAME = os.getenv('STREAMLIT_INDEX_NAME')
