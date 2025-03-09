@@ -13,7 +13,6 @@ charset-normalizer==3.4.1
 click==8.1.8
 decorator==5.2.1
 distro==1.9.0
-docx==0.2.4
 dotenv==0.9.9
 executing==2.2.0
 filelock==3.17.0
@@ -105,7 +104,7 @@ sympy==1.13.1
 tabulate==0.9.0
 tenacity==9.0.0
 threadpoolctl==3.5.0
-tiktoken==0.3.3
+# tiktoken==0.3.3
 tokenizers==0.21.0
 toml==0.10.2
 torch==2.6.0
